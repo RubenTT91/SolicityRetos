@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "frace",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/holaMundo.sol": "HolaMundo"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/holaMundo.sol": {
+			"keccak256": "0xbfed228e000df7668ae6080ed33e7ee198d270f7d430dbf94c141e2609fa3927",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3d3ddfdbcb5a1b96a036159d27d4953cd61606655303bcc87fca2f8b1bcb97ab",
+				"dweb:/ipfs/QmRq2w8bfaSrPVSBGyWwM4ZK8ByteQxDFnapMdMcSXuVvx"
+			]
+		}
+	},
+	"version": 1
+}
