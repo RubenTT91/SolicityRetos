@@ -17,6 +17,19 @@
 				"type": "constructor"
 			},
 			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "puntosUsuario",
+						"type": "uint256"
+					}
+				],
+				"name": "PuntosAcumulados",
+				"type": "event"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -81,11 +94,11 @@
 	},
 	"sources": {
 		"contracts/SistemaDeRecompensas.sol": {
-			"keccak256": "0xb6f71fa170a9caf9f30613af7d90496bd94be1f3db7b81e1f0a6356a5c41a532",
+			"keccak256": "0x9007877f9e07b182ac93366b056b94c8febd2bdb95e060fdbfb592196446422e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b8104d56c4e88fea910f51314d4d6d63f7e517a5f1e22a267743d1c39040a11e",
-				"dweb:/ipfs/Qmep5jtQRGus6mXdVD4W7GkwSviNqCAMiYSWagnokh6j1t"
+				"bzz-raw://304e137e4df220610052b35f5b69db60b0784ed7b184f5dc258306ed4c84daa4",
+				"dweb:/ipfs/QmeeMYxDuERqnx6Sodik1LE67hdZuJRdX3BGtq272ffyCC"
 			]
 		}
 	},
