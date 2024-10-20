@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_UmbralParaRecompensa",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "AcumularPuntos",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ConsultarEstadoDeRecompensa",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SistemaDeRecompensas.sol": "SistemaDeRecompensas"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SistemaDeRecompensas.sol": {
+			"keccak256": "0x52ed8ae11bad2e33e69f2696c41a8459eff2a9e8963fc016cce1c3428ff99553",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://86f892544f86badc82f181a782efdf3ac672cb5d7eba9344ffe2c54a2d2ef697",
+				"dweb:/ipfs/QmZLPqaGRQ2Ku9fRMgYBW1o3RisD1oJCwvaVvQfTDWcMhQ"
+			]
+		}
+	},
+	"version": 1
+}
