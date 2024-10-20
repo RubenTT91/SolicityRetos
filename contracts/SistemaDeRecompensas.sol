@@ -1,6 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >0.8.0 <=0.9.0;
 
+/*
+* @ RubenTT91 (☞ﾟヮﾟ)☞
+*/
+
 contract SistemaDeRecompensas{
     //definimos variables
     uint UmbralParaRecompensa;
