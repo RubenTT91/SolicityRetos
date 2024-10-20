@@ -26,7 +26,7 @@
 						"type": "uint256"
 					}
 				],
-				"name": "PuntosAcumulados",
+				"name": "puntosAcumulados",
 				"type": "event"
 			},
 			{
@@ -37,14 +37,14 @@
 						"type": "uint256"
 					}
 				],
-				"name": "AcumularPuntos",
+				"name": "acumularPuntos",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "ConsultarEstadoDeRecompensa",
+				"name": "consultarEstadoDeRecompensa",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -94,11 +94,11 @@
 	},
 	"sources": {
 		"contracts/SistemaDeRecompensas.sol": {
-			"keccak256": "0x9007877f9e07b182ac93366b056b94c8febd2bdb95e060fdbfb592196446422e",
+			"keccak256": "0xea17f323e6a69c10b089f0ad9e09d4e0dd489457fe5a7a0735bc661f2858c63e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://304e137e4df220610052b35f5b69db60b0784ed7b184f5dc258306ed4c84daa4",
-				"dweb:/ipfs/QmeeMYxDuERqnx6Sodik1LE67hdZuJRdX3BGtq272ffyCC"
+				"bzz-raw://38da89e1a8bb5382a9834c9597f4d210bf276c9d346db2de5f24a217de2edee8",
+				"dweb:/ipfs/QmWRZZ5XtGJVNGRCXcSGcdZkcGo6iW38MqPEENAVS7886K"
 			]
 		}
 	},
