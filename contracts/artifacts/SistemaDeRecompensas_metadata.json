@@ -17,7 +17,13 @@
 				"type": "constructor"
 			},
 			{
-				"inputs": [],
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_sumarPuntos",
+						"type": "uint256"
+					}
+				],
 				"name": "AcumularPuntos",
 				"outputs": [],
 				"stateMutability": "nonpayable",
@@ -26,8 +32,24 @@
 			{
 				"inputs": [],
 				"name": "ConsultarEstadoDeRecompensa",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -59,11 +81,11 @@
 	},
 	"sources": {
 		"contracts/SistemaDeRecompensas.sol": {
-			"keccak256": "0x52ed8ae11bad2e33e69f2696c41a8459eff2a9e8963fc016cce1c3428ff99553",
+			"keccak256": "0xb6f71fa170a9caf9f30613af7d90496bd94be1f3db7b81e1f0a6356a5c41a532",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://86f892544f86badc82f181a782efdf3ac672cb5d7eba9344ffe2c54a2d2ef697",
-				"dweb:/ipfs/QmZLPqaGRQ2Ku9fRMgYBW1o3RisD1oJCwvaVvQfTDWcMhQ"
+				"bzz-raw://b8104d56c4e88fea910f51314d4d6d63f7e517a5f1e22a267743d1c39040a11e",
+				"dweb:/ipfs/Qmep5jtQRGus6mXdVD4W7GkwSviNqCAMiYSWagnokh6j1t"
 			]
 		}
 	},
